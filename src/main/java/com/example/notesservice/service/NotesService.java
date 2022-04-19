@@ -28,6 +28,7 @@ public class NotesService {
                          .userID(note.getUserID())
                          .title(note.getTitle())
                          .description(note.getDescription())
+                         .creationDate(note.getCreationDate())
                 .build());
         return HttpStatus.CREATED;
     }
